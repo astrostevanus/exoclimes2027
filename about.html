@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
     <head>
-        <title>Exoclimes VII</title>
-        <link rel="icon" type="image/x-icon" href="/img/favicon_VII.ico">
+        <title>Exoclimes VIII - About</title>
+        <!-- favicon: intentionally blank for now; add Exoclimes VIII favicon later -->
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,27 +18,7 @@
         <!-- Exoxclimes VI stylesheet -->
         <link href="../css/main.css" rel="stylesheet" type="text/css">
 
-        <!-- Map library-->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            .imgbox {
-                display: grid;
-                height: 100%;
-            }
-            .center-fit {
-                max-width: 100%;
-                max-height: 100vh;
-                margin: auto;
-            }
-        </style>
-    </head>
-
+    </head>    
     <body class="exoclimes-bg">
         <div class="vert-spacer">
             <div class="container-fluid">
@@ -52,363 +32,130 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="exoclimes_vii.html">Exoclimes VII</a>
+                                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="program.html">Program</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="program.html">Presentations</a>
-                                </li>
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Exoclimes VII
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="exoclimes_vii.html">About</a></li>
-                                        <li><a class="dropdown-item" href="program.html">Program</a></li>
-                                    </ul>
-                                </li> -->
-                                <li class="nav-item">
-                                    <a class="nav-link" href="exoslam/index.html">ExoSLAM</a>
-                                </li>
-                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="register.html">Registration</a>
-                                </li> -->
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Organizing Committees
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="SOC.html">SOC</a></li>
-                                        <li><a class="dropdown-item" href="LOC.html">LOC</a></li>
-                                    </ul>
-                                </li> -->
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="SOC.html">SOC</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="LOC.html">LOC</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">Logistics</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="participants.html">Participants</a>
-                                </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
+            <div class="row g3">
+                <div class="col mt-5">
+                    <div class="blurred-background p-5" style="
+                        margin-top: 30px;
+                        text-align: justify;
+                        font-size: 14pt;
+                        font-family: 'Raleway', sans-serif;
+                        color: #031B48;
+                    ">
+                        <p>
+                            <b>About ExoClimes VIII:</b>
+                            ExoClimes VIII will be held at the Institute of Science Tokyo, Japan, from 11–16 July 2027. The conference brings together researchers studying planetary climates, atmospheres, and habitability across a wide range of environments, from Solar System planets and moons to exoplanets and brown dwarfs. The scientific programme will include keynote reviews, invited and contributed talks, poster sessions, and dedicated discussion periods covering topics in planetary atmospheres, climate processes, atmospheric chemistry, planetary evolution, and habitability. Prior to the conference, the ExoSLAM Summer School (8–10 July 2027) will provide training and networking opportunities for students and early-career researchers.
+                        </p>
 
-            <!-- PAGE CONTENT -->
-            <div class="container-fluid">
-                <!-- <div class="page-content text-center pt-5">
-                    <b>Exoclimes</b> is a conference series devoted to understanding the climate and climate evolution of exoplanets. It began in 2010 at the University of Exeter, UK.
-                </div> -->
- 
-                 <div class="row g3">
-                    <div class="col mt-5">
-                        <div class="blurred-background p-5" style="margin-top: 30px;">
-                            <div class="homepage-exoclimes-title-date">
-                                <h2><span style="font-family: 'Good Times Rg', sans-serif;"></span>Welcome to Montréal!</h2>
-                            </div>
-                            <br>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">Exoclimes VII will be hosted in the vibrant city of Montréal in the summer of 2025, organized by members of the <a href="https://exoplanetes.umontreal.ca/en/">Trottier Institute for Research on Exoplanets (IREx)</a>, 
-                                the largest exoplanet research group in Canada. Bringing together scientists from the Université de Montréal (UdeM), McGill University, Bishop's University, the Université Laval, and the Montreal Planetarium, 
-                                IREx specializes in exoplanet research, encompassing observational and theoretical work. With leading roles in instrumental projects like the JWST, SPIRou, and NIRPS, characterizing exoplanet atmospheres is one 
-                                of IREx's primary areas of research focus. The Université de Montréal campus, nestled on the slopes of Mont-Royal away from the downtown hustle, is a great setting for the Exoclimes conference, located in one of the 
-                                most welcoming North American cities, especially for pedestrians and cyclists during the lively summer months. With art and music festivals in the summer, Montréal's diverse culture and Québécois charm add a special touch to the conference experience. 
-                                Participants will have a large variety of things to do while getting to know other attendees, from outdoor activities such as Mont-Royal hikes, city biking, relaxing on terraces or free outdoor events, to indoor activities 
-                                such as museum visits and access to the university's sports facilities.</p>
-                                <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">The conference will be hosted at the <b><a href="https://www.google.com/maps/place/UdeM+%E2%80%93+Pavillon+Jean-Coutu/@45.5003731,-73.6173438,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc919f359762d0f:0x2b30a1da10f4d635!8m2!3d45.5003731!4d-73.6147689!16s%2Fg%2F11b6dg6dnj?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D">Jean Coutu Pavillon</a></b> on the main Université de Montréal campus:</p>
-                                <div id="map" style="height: 400px; width: 100%;"></div>
-                                <script>
-                                    var map = L.map('map').setView([45.500151, -73.615246], 15); // Replace with actual lat/lng
-                                
-                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                        attribution: '&copy; OpenStreetMap contributors'
-                                    }).addTo(map);
-                                
-                                    L.marker([45.500151, -73.615246]).addTo(map)
-                                        .openPopup();
-                                </script>
-                                <br>
-                                <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    See the sections below for helpful information about your stay in Montréal! <br>
-                                    <b>Getting Around</b>
-                                    <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                        <li><a href="#public_transport">Public Transport</a></li>
-                                        <li><a href="#travel">Travelling to Montréal</a></li>
-                                    </ul>
-                                    <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Recommendations</b>
-                                        <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                            <li><a href="#activities">Activities</a></li>
-                                            <li><a href="#food">Food</a></li>
-                                        </ul>
-                                    </p>
-                                </p>
-                        </div>
-
-                        <div class="blurred-background p-5" style="margin-top: 30px;">
-                            <div class="homepage-exoclimes-title-date">
-                                <h2 id="public_transport"><span style="font-family: 'Good Times Rg', sans-serif;"></span>Public Transport</h2>
-                            </div>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                            In general, Montréal public transports are safe, clean and reliable. They are managed by the <a href="https://www.stm.info/en">Société de transport de Montréal (STM)</a>. The <a href="https://www.stm.info/en/info/networks/metro">Métro</a> covers the city's busiest areas, but not the airport. To travel from the airport via public transport, you will need to use the <a href="https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown">747 bus</a> (see the section about <b>Travelling to Montréal</b>).<br></p>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>NOTE:</b> There is a supermarket chain called Metro… Make sure to not confuse metro stations with metro supermarkets when using Google Maps! The metro stations should have a “transit” icon.</p>
-                            
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Public Transport Fares</b><br>
-                            A full list of fares is available <a href="https://www.stm.info/sites/default/files/pdf/en/tarifs.pdf">here</a>. Here are some key points:<br>
-                            <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                <li>Fares can be purchased at metro stations (orange vending machines or booths at the entrance of every station), on the bus (<b>cash only, exact amount</b>), or at the airport.</li>
-                                <li><b>The weekly fare is valid from Monday to Sunday, 11:59 PM, not from the date of purchase.</b></li>
-                                <li>If your travel schedule does not fit the weekly fare, other options are:</li>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li>3-day fare (3 consecutive days from the date of purchase), <b>valid for the 747 airport bus.</b></li>
-                                    <li>24-hr fare, <b>valid for the 747 airport bus.</b></li>
-                                    <li>Unlimited weekend (Friday 4 PM to Monday 5 AM), <b>valid for the 747 airport bus.</b></li>
-                                    <li>10-trip fare (valid for 10 trips), <b>not valid</b> for the 747 airport bus.</li>
-                                </ul>
-                                <li>Google Maps is usually reliable for Metro and bus itineraries.</li>
-                                <li>The STM has a dedicated <a href="https://www.stm.info/en/info/advice/visitors">page for visitors</a>.</li>
-                                <li>You only need zone A tickets (valid on the island of Montréal), unless you are planning to visit Laval or Longueuil (Zone B).</li>
-                            </ul>
-                            </p>
-                        </div>
-
-                        <div class="blurred-background p-5" style="margin-top: 30px;">
-                            <div class="homepage-exoclimes-title-date">
-                                <h2 id="travel"><span style="font-family: 'Good Times Rg', sans-serif;"></span>Travelling to Montréal</h2>
-                            </div>
-                            <br>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>By Plane</b><br>
-                            When travelling to Montréal by plane, you will arrive at the <a href="https://www.admtl.com/en-CA/">Montréal-Trudeau International Airport (YUL)</a>. The <a href="https://www.stm.info/en/info/networks/bus-network-and-schedules-enlightened/747-yul-montreal-trudeau-airport-downtown">747 bus</a> travels from the airport to downtown every 10-15 minutes. It is the cheapest option to get to Université de Montréal. Taxis and Uber are also available and clearly announced at the airport. For the 747 bus, tickets (11 CAD$) can be purchased at the vending machine or the STM information counter, both located near the international arrivals area (door 28). These tickets give you access to all subways and buses in Montreal for 24 hours. See the Public transports section below to learn more about transit fare options.
-                            To travel from the airport to the University:
-                            <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                <li>Take the 747 until the Lionel-Groulx Metro station</li>
-                                <li>Take the orange line towards Côte-Vertu</li>
-                                <li>Get off at the Snowdon station</li>
-                                <li>Take the blue line towards Saint-Michel</li>
-                                <li>Get off at the Université-de-Montréal station</li>
-                            </ul>
-                            </p>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>NOTE:</b> The last metro is between 12h30 and 1h30 AM, depending on the line and on the day. After that, Google maps should give you the best night bus combination (likely 378+368, 356+371, or 747+369). At night, Taxis or Uber will be significantly faster.</p>
-                            
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>By Train</b><br>
-                            If you are travelling from Canada or from the northeast of the United States, there are <a href="https://www.viarail.ca/en/explore-our-destinations/trains/ontario-and-quebec">VIA Rail</a> and <a href="https://www.amtrak.com/regions/northeast.html">Amtrack</a> trains travelling to Montréal. The train station (<a href="https://garecentrale.ca/en">Gare Centrale</a>) is located near the Bonaventure Metro station. From there, you can take the orange line towards Côte-Vertu, switch to the blue line at the Snowdon Station (towards Saint-Michel), and get off at the Université-de-Montréal station.
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>By Bus</b><br>
-                            If you are travelling from Canada or from the northeast of the United States, there are several buses travelling to Montréal. Most of them arrive at the Montréal Coach Terminal (Gare d'autocars de Montréal), located near the Berri-UQAM Metro station. From there, take the orange line towards Montmorency, switch to the blue line at the Jean-Talon station (towards Snowdon), and get off at the Université-de-Montréal station.
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Getting to ZUM from the Université de Montréal Metro</b><br>
-                            We will be staying at the ZUM residences during the meeting. The address is: <br>
-                            <br>
-                            2350, boulevard Édouard-Montpetit <br>
-                            Montréal (Québec)<br>
-                            H3T 1J4 CANADA<br>
-                            <br>
-                            To get to ZUM, get off the metro at the Université de Montréal station and walk east (turn right when exiting the station). You should reach the ZUM entrance in ~5 min. See “Comment repérer les Résidences ZUM quand vous circulez sur le boulevard Édouard-Montpetit?” on the <a href="https://www.zumresidences.ca/fr/">ZUM website</a> for a Street View. You can find the Google Maps route <a href="https://www.google.com/maps/dir/Station+Universit%C3%A9-de-Montr%C3%A9al,+Montreal,+QC/ZUM+Auberge+d'%C3%A9t%C3%A9+-+R%C3%A9sidences+de+l'Universit%C3%A9+de+Montr%C3%A9al,+2350+Bd+%C3%89douard-Montpetit+R%C3%A9sidence+C,+Montr%C3%A9al,+QC+H3T+1J4/@45.5054761,-73.6185227,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x4cc9198d571915f9:0xd9429b761667456b!2m2!1d-73.618055!2d45.504028!1m5!1m1!1s0x4cc9198d9076499f:0x24696928e7ea9d96!2m2!1d-73.6137702!2d45.5067583?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D">here</a>.<br>
-                            <!-- <img src="/img/getting_to_zum.png" alt="Getting to ZUM from UdeM station" width="200" height="600" class="center"> -->
-                            <!-- <div class="imgbox">
-                                <img class="center-fit" src='/img/getting_to_zum.png'>
-                            </div><br> -->
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Getting to the Jean-Coutu building</b><br>
-                            <!-- <img src="/img/getting_to_jean_coutu.png" alt="Getting to Jean-Coutu" width="200" height="600" class="center"><br> -->
-                            <!-- <div class="imgbox">
-                                <img class="center-fit" src='/img/getting_to_jean_coutu.png'>
-                            </div><br> -->
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">The Jean-Coutu building where the conference is taking place is located to the East of the main UdeM campus.
-                            To get there from ZUM, walk east towards Chemin de Polytechnique.
-                            To get there from the metro, take the escalator towards Roger gaudry and walk East from there. You can find the Google Maps route <a href="https://www.google.com/maps/dir/ZUM+Auberge+d'%C3%A9t%C3%A9+-+R%C3%A9sidences+de+l'Universit%C3%A9+de+Montr%C3%A9al,+2350+Bd+%C3%89douard-Montpetit+R%C3%A9sidence+C,+Montr%C3%A9al,+QC+H3T+1J4/UdeM+%E2%80%93+Pavillon+Jean-Coutu,+Chemin+de+Polytechnique,+Montreal,+QC/@45.5029938,-73.6200182,16z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x4cc9198d9076499f:0x24696928e7ea9d96!2m2!1d-73.6137702!2d45.5067583!1m5!1m1!1s0x4cc919f359762d0f:0x2b30a1da10f4d635!2m2!1d-73.6147689!2d45.5003731?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D">here.</a></p>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Getting to the MIL campus</b><br>
-                            <!-- <img src="/img/zum_to_udem_station.png" alt="ZUM to UdeM station" width="200" height="600" class="center"><br> -->
-                            <!-- <div class="imgbox">
-                                <img class="center-fit" src='/img/zum_to_udem_station.png'>
-                            </div><br> -->
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">The MIL campus is right next to the Acadie metro station. The address is 1375 Ave.Thérèse-Lavoie-Roux, Montréal, QC H2V 0B3.
-                            If you prefer to walk, it is a 30 min walk from the ZUM residence. You can find the Google Maps route <a href="https://www.google.com/maps/dir/ZUM+Auberge+d'%C3%A9t%C3%A9+-+R%C3%A9sidences+de+l'Universit%C3%A9+de+Montr%C3%A9al,+2350+Bd+%C3%89douard-Montpetit+R%C3%A9sidence+C,+Montr%C3%A9al,+QC+H3T+1J4/Universit%C3%A9+de+Montr%C3%A9al+-+Campus+MIL,+1375+Ave.Th%C3%A9r%C3%A8se-Lavoie-Roux,+Montreal,+Quebec+H2V+0B3/@45.5128967,-73.6208912,15.54z/data=!4m15!4m14!1m5!1m1!1s0x4cc9198d9076499f:0x24696928e7ea9d96!2m2!1d-73.6137702!2d45.5067583!1m5!1m1!1s0x4cc9199fe37a36dd:0xcfd3c8d7ac8d70f8!2m2!1d-73.6196605!2d45.5231104!3e3!5i1?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D">here.</a></p>
-                            <br>
-                            <!-- <img src="/img/zum_to_mil.png" alt="ZUM to MIL" width="200" height="600" class="center"> -->
-                            <!-- <div class="imgbox">
-                                <img class="center-fit" src='/img/zum_to_mil.png'>
-                            </div><br> -->
-                            </p>
-                        </div>
-                                
-                        <div class="blurred-background p-5" style="margin-top: 30px;">
-                            <div class="homepage-exoclimes-title-date">
-                                <h2 id="activities"><span style="font-family: 'Good Times Rg', sans-serif;"></span>Activities</h2>
-                            </div>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">Summer in Montréal is full of festivals and events, with many free live outdoor shows. There are also multiple sports teams and events to attend. Finally, Montreal has many outdoor parks that are beautiful and full of people come summer time. Here are a few recommendations:</p>
-                            
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Festivals</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://www.montrealcomiccon.com/en/">Comic Con Mtl</a>: July 4-6</li>
-                                    <li><a href="https://montrealjazzfest.com/en">Jazz Festival </a>: June 26 to July 5</li>
-                                    <li><a href="https://www.festivalnuitsdafrique.com/">Festival International Nuits d'Afrique</a>: July 8 to 20</li>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Sports Teams</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://www.montrealalouettes.com/calendrier/2025/">Alouettes</a> (Canadian football)</li>
-                                    <li><a href="https://en.rosesmtl.ca/schedule">Les roses</a> (soccer)</li>
-                                    <li><a href="https://www.cfmontreal.com/calendrier/#competition=all&date=2025-04-30">CF Montréal</a> (soccer)</li>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Outdoors</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li>Pedestrian streets with many terraces, areas to sit, shops:</li>
-                                    <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                        <li>Rue du Mont-Royal (Plateau)</li>
-                                        <li>Rue St-Hubert (Plateau)</li>
-                                        <li>Avenue Van Horne (Outremont)</li>
-                                        <li>Quartier des spectacles (Downtown)</li>
-                                        <li>Rue wellington (Verdun): <a href="https://www.timeout.com/montreal/news/its-official-rue-wellington-in-montreal-named-coolest-street-in-the-world-082522">Montreal street Rue Wellington named coolest street worldwide</a></li>
-                                    </ul>
-                                    <li>Bixi: Great way to get basically anywhere in Mtl during the summer (electric bikes available)</li>
-                                    <li><a href="https://parcs.canada.ca/lhn-nhs/qc/canallachine/activ/sentiers-trails/parcs-attraits-parks-attractions">Canal Lachine</a>: Park and bike path along the canal</li>
-                                    <li><a href="https://montreal.ca/en/places/parc-du-mont-royal">Parc du Mont-Royal</a></li>
-                                    <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                        <li>Belvédère Kondiaronk: nice view on downtown, accessible via trails or by bus + short walk</li>
-                                        <li>Parc Tiohtià:ke Otsira'kéhne/Belvédère Outremont: closer to UdeM, view on the north of the city</li>
-                                    </ul>
-                                    <li>Parc Jarry: Big park not too far from the MIL campus</li>
-                                    <li>Parc Jeanne-Mance: Park right next to Mont-Royal</li>
-                                    <li><a href="https://www.parcjeandrapeau.com/">Parc Jean-Drapeau</a>: beach, Aquazilla, etc.</li> 
-                                    <li>Surf on Saint-Lawrence river:</li>
-                                    <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                        <li><a href="https://ksf.ca/surf/initiation-1-vague-a-guy/">Vague à guy initiation</a></li>
-                                    </ul>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Museums</b><br>
-                                To learn how science engages with the public and about the past and current people who live on this land:
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li>All 5 <a href="https://espacepourlavie.ca/">Espaces pour la vie</a>: Biodome, Biosphere, Planetarium, Botanical Garden, Insectarium</li>
-                                    <li><a href="https://memmtl.ca/">Centre des Mémoires Montréalaises</a>: 100% about Montreal and its history</li>
-                                    <li><a href="https://www.musee-mccord-stewart.ca/fr/">Musee McCord</a>: Indigenous Voices of Today Exhibition</li>
-                                    <li><a href="https://museesmontreal.org/fr/musees/pointe-a-calliere-cite-darcheologie-et-dhistoire-de-montreal">Musée Pointe à Callière</a>: Montréal history and archaeology</li>
-                                    <li><a href="https://www.centredessciencesdemontreal.com/">Centre des sciences de Montréal</a></li>
-                                    <li><a href="https://macm.org/"></a>Musée d'arts contemporains</li>
-                                    <li><a href="https://phi.ca/en/"></a>Centre PHI</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div class="blurred-background p-5" style="margin-top: 30px;">
-                            <div class="homepage-exoclimes-title-date">
-                                <h2 id="food"><span style="font-family: 'Good Times Rg', sans-serif;"></span>Food</h2>
-                            </div>
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                Montreal is known for its diverse and vibrant culinary scene. Whatever you fancy, you can probably find multiple restaurants in Montreal that serve it. Do not hesitate to explore. Here is a <a href="https://maps.app.goo.gl/iCeP1k3JgN6yBhF66 ">list</a> of restaurants we have compiled on google maps.<br>
-                                <br>
-                                Etiquette when paying at a restaurant: In Montreal, we are expected to tip when paying our bill. The standard usual/minimum amount for the tip is 15%, which is roughly the same amount as the taxes you can find on your bill. Almost all restaurants will take credit card payment via a machine that will let you choose the tip % you wish to include. <br>
-                                <br>
-                                While this is true for sit-down restaurants with table service, tip is not necessary for fast foods and counter restaurants. Even if the machine asks you for an amount for tips as you are paying, do not feel obligated to do so. <br>
-                                <br>
-                                Finally, almost all restaurants in Montreal will split bills de facto: they will probably ask you to make sure at the end of the meal.
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Coffee</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://www.lecaravanecafe.com">Caravane</a> (3506 Av. Lacombe, Montréal, QC H3T 1M1): near main UdeM campus</li>
-                                    <li><a href="https://cafedax.com/">Café DAX</a> (1461 Ave Van Horne, Outremont, Quebec H2V 1L3): near MIL</li>
-                                    <li>Baristello (1330 Ave.Thérèse-Lavoie-Roux, Montréal, QC H2V): right next to MIL</li>
-                                    <li><a href="https://cafechatlheureux.com/">Chat l'heureux</a> (172 Duluth Est, Montréal H2W 1H3): Plateau, there are cats</li>
-                                    <li><a href="https://crewcollectivecafe.com/en/">Crew</a> (360 Rue Saint-Jacques, Montréal, QC H2Y 1P5): Old Montreal, in and old bank, looks very nice</li>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Bagels</b><br>
-                                There are two famous bagel institutions in Montreal: 
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://stviateurbagel.com/">St-Viateur</a> (263 Saint Viateur St. West, Montreal, Quebec H2V 1Y1)</li>
-                                    <li><a href="https://fairmountbagel.com/">Fairmount</a> (74 Fairmount West Montreal, QC H2T 2M2)</li>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Vegan</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://lov.com/en/">Lov</a> (464 McGill St, Montreal, Quebec H2Y 2H2): Vegan restaurant in the Old Montreal</li>
-                                    <li><a href="https://www.sushimomo.ca/montreal">Momo: Vegan Sushi</a> (3609 Rue Saint-Denis, Montréal, QC, H2X 3L6)</li>
-                                    <li><a href="https://www.sushimomo.ca/montreal">Komomo Vegan Sushi</a> (16 Avenue des Pins Montréal, QC, H2W 1N3), Plateau Mont-Royal</li>
-                                    <li><a href="https://www.ohanasushi.ca/?lang=en">Ohana</a> (330 Mont-Royal Ave E, Montreal, Quebec H2T 1P7): Vegan sushi, Plateau Mont-Royal</li>
-                                    <li><a href="https://www.auxvivres.com/">Aux vivres</a> (4631 St Laurent Blvd, Montreal, Quebec H2T 1R2): Vegan restaurant, Plateau Mont-Royal and Westmount</li>
-                                    <li><a href="https://www.umamiramenizakaya.ca/?lang=en">Umami</a> (6660 Clark St, Montreal, Quebec H2S 3E7): Vegan Ramen, Mile-End</li>
-                                    <li><a href="https://lolarosa.ca/">Lola Rosa</a> (276 Saint-Catherine St W, Montreal, Quebec H2X 2A1): Vegan restaurant, one near McGill and one near Place des arts</li>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Near Campus</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://vicesetversa.com/">Vice-et-versa</a> (6631 St Laurent Blvd, Montreal, Quebec H2S 3C5): Pub in Little Italy, not too far from MIL, many micro-brewery options</li>
-                                    <li><a href="https://brasseursdumonde.com/">Brasseurs du monde</a> (6700 St Laurent Blvd, Montreal, Quebec H2S 3C7): Pub not too far from MIL, brew their own beer</li>
-                                    <li><a href="https://www.maisonindiancurry.ca/">Maison Indian Curry</a> (996 Rue Jean-Talon O, Montréal, QC H3N 1S8): Indian restaurant Near MIL on Jean-Talon</li>
-                                    <li><a href="https://www.restaurantbombaymahal.ca/en/">Bombay Mahal</a> (1001 Rue Jean-Talon O, Montréal, QC H3N 1T2): Indian restaurant Near MIL on Jean-Talon</li>
-                                    <li><a href="https://punjabpalacerestaurant.com/">Punjab palace</a> (920 Rue Jean-Talon O, Montréal, QC H3N 1S6): Indian restaurant Near MIL on Jean-Talon</li>
-                                    <li><a href="https://www.taverneatlantic.com/">Taverne Atlantic</a> (6512 Park Ave, Montreal, Quebec H2V 4H9): Pub not too far from MIL, Mile-End</li>
-                                    <li><a href="https://www.jesuisunenfantterrible.com/">Enfants Terribles Outremont</a> (1257 Bernard Ave, Outremont, Quebec H2V 3P6): Restaurant near MIL campus</li>
-                                    <li><a href="https://www.petititalien.com/">Petit italien Outremont</a> (1265 Avenue Bernard Ouest, Montréal, Outremont, H2V 1V8): Restaurant near MIL camus</li>
-                                    <li><a href="https://rochlecoq.com/">Roch le coq</a> (1541 Ave Van Horne, Outremont, Quebec H2V 1L4): Fried chicken, near MIL campus</li>
-                                    <li><a href="https://www.helmmicrobrasserie.ca/?lang=en">HELM</a> (273 Rue Bernard O, Montréal, QC H2V 1T5): Pub not too far from MIL, Mile-end</li>
-                                    <li><a href="https://www.cornelipizza.com/">Corneli</a> (6741 St Laurent Blvd, Montreal, Quebec H2S 3C7): Restaurant in Little Italy, not too far from MIL</li>
-                                    <li><a href="https://pubmccarold.com/en/home/">McCarold</a> (5400 Chem. de la Côte-des-Neiges, Montréal, QC H3T 1Y5): Pub near the main UdeM campus</li>
-                                </ul>
-                            </p>
-
-                            <p style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;"><b>Other places to try while in Montréal</b><br>
-                                <ul style="margin-top: 0; font-size: 14pt; font-family: 'Raleway', sans-serif;">
-                                    <li><a href="https://schwartzsdeli.com">Schwartz's Deli</a> (3895 St Laurent Blvd, Montreal, Quebec H2W 1K4): <b>Smoked meat!</b></li>
-                                    <li><a href="https://labanquise.com/">Banquise</a> (994 Rue Rachel E, Montréal, QC H2J 2J3): <b>Poutine!</b></li>
-                                    <li><a href="https://mistersteer.com/">Mister Steer</a> (1198 Saint-Catherine St W, Montreal, Quebec H3B 1K1): <b>Downtown, best burgers in Mtl, according to their website and to Thomas (from the LOC)!</b></li>
-                                    <li><a href="https://siboire.ca/fr/succursales/st-laurent/">Siboire Saint-Laurent</a> (5101 St Laurent Blvd, Montreal, Quebec H2T 1E4): <b>Pub where we have Astro on Tap</b></li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        
+                        <p>
+                            As with previous ExoClimes meetings, the conference will place a strong emphasis on discussion and collaboration, balancing scientific sessions with ample opportunities for informal interactions. With approximately 200 participants expected from around the world, ExoClimes VIII will bring together a diverse community spanning astronomy, planetary science, atmospheric science, and related disciplines, while maintaining the interactive and collaborative atmosphere that has long characterised the ExoClimes conference series.
+                        </p>
                     </div>
-                 </div>
-
+                </div>
             </div>
+                <div class="row g3">
+                    <div class="col mt-5">
+                            <div class="text-center mb-4">
+                                <h2 style="
+                                    font-family: 'Raleway', sans-serif;
+                                    font-weight: 700;
+                                    color: #031B48;
+                                ">
+                                    Previous ExoClimes Conferences
+                                </h2>
+                                <hr style="width: 200px; margin: 15px auto;">
+                            </div>
 
-            <!-- FOOTER -->
+                            <table class="table exoclimes-table">
+                            <thead>
+                              <tr>
+                                <th scope="col" style="color: #031B48">Exoclimes</th>
+                                <th scope="col" style="color: #031B48">Year</th>
+                                <th scope="col" style="color: #031B48">Host</th>
+                                <th scope="col" style="color: #031B48">Venue</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row"><a href="http://www.astro.ex.ac.uk/exoclimes/2010/dvd/Proceedings.html">I</a></th>
+                                <td>2010</td>
+                                <td>University of Exeter</td>
+                                <td>Exeter, UK</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><a href="http://www.astro.ex.ac.uk/exoclimes/2012/index.html">II</a></th>
+                                <td>2012</td>
+                                <td>Northwestern University</td>
+                                <td>Aspen, CO, USA</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><a href="https://www.yumpu.com/en/document/view/34069553/exoclimes-conference-booklet1">III</a></th>
+                                <td>2014</td>
+                                <td>University of Bern</td>
+                                <td>Davos, CH</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><a href="https://astrobiology.nasa.gov/nai/media/medialibrary/2016/08/ExoClimes_2016_report.pdf">IV</a></th>
+                                <td>2016</td>
+                                <td>McGill University</td>
+                                <td>Squamish, BC, CA</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><a href="https://users.physics.ox.ac.uk/~pierrehumbert/exoclimes2019/">V</a></th>
+                                <td>2019</td>
+                                <td>University of Oxford</td>
+                                <td>Oxford, UK</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><a href="https://salmasalhi7.github.io/exoclimes2023_archive/">VI</a></th>
+                                <td>2023</td>
+                                <td>University of Exeter</td>
+                                <td>Exeter, UK</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><a>VII</a></th>
+                                <td>2025</td>
+                                <td>Université de Montréal</td>
+                                <td>Montréal, QC, CA</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END PAGE CONTENT -->
+
+        </div>
+
+
+        <!-- FOOTER -->
         <footer class="footer-container container-fluid">
-            <div class="row g-3 mb-3">
-                <div class="col text-start">
-                    <a href="https://exoplanetes.umontreal.ca/en">
-                        <img src="img/new_irex_logo.png" class="footer-logo"/>
-                    </a>
-                </div>
-                <!-- <div class="col" align="center">
-                    <a href="https://ras.ac.uk/">
-                        <img src="img/ras-logo-landscape-trans.png" class="footer-logo"/>
-                    </a>
-                </div> -->
-                <div class="col text-end">
-                    <a href="https://www.umontreal.ca/">
-                        <img src="img/udem_logo.png" class="footer-logo" />
-                    </a>
-                </div>
-            </div>
-            <!-- <div class="row g-3">
-                <div class="col">
-                    <p class="footer-copyright">&copy; Exoclimes VI 2023 - Website by <a href="http://smorrell.me/">Sam Morrell</a> - Artwork by <a href="https://www.copyrite-print.co.uk/">Copyrite</a>
-                    </p>
-                </div>
-            </div> -->
+            <!-- Host-org logos removed for now; add Institute of Science Tokyo branding later -->
         </footer>
         <!-- END FOOTER -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
     </body>
 </html>
