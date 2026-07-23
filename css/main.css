@@ -305,6 +305,19 @@ ul#header-menu {
     margin-right: 1em;
 }
 
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+    color: #031B48;
+    margin-left: 0.5rem;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: #ff6b35;
+}
+
 @media (min-width: 992px) and (max-width: 1399px) {
     .nav-item > .nav-link {
         font-size: 11pt;
@@ -324,6 +337,38 @@ ul#header-menu {
 
 .poster-download-links a {
     white-space: nowrap;
+}
+
+.event-logo {
+    display: block;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.event-logo-lg {
+    max-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .event-logo {
+        max-width: 340px;
+    }
+
+    .event-logo-lg {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .event-logo {
+        max-width: 280px;
+    }
+
+    .event-logo-lg {
+        max-width: 320px;
+    }
 }
 
 .homepage-logo-container {
