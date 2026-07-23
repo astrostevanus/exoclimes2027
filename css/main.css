@@ -186,6 +186,52 @@ b {
     z-index: 2;
 }
 
+.exoclimes-viii-bg {
+    background-image: url("../assets/web/ExoClimes_bg.png");
+    background-repeat: repeat;
+    background-size: 400px auto;
+    background-position: top left;
+    min-height: 100%;
+}
+
+.important-info-box {
+    background-color: rgba(255, 107, 53, 0.1);
+    border-left: 4px solid #ff6b35;
+    padding: 1rem 1.25rem;
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    color: #031B48;
+}
+
+.important-info-box a {
+    color: #031B48;
+    font-weight: 600;
+}
+
+.announcements-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.announcements-list li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    color: #031B48;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(3, 27, 72, 0.15);
+}
+
+.announcements-list li:last-child {
+    border-bottom: none;
+}
+
+.announcements-list .announcement-date {
+    font-weight: 600;
+    color: #ff6b35;
+}
+
 .vert-spacer {
     min-height: 100%;
     padding-bottom: 170px;
@@ -259,13 +305,34 @@ ul#header-menu {
     margin-right: 1em;
 }
 
+@media (min-width: 992px) and (max-width: 1399px) {
+    .nav-item > .nav-link {
+        font-size: 11pt;
+        margin-left: 0.35em;
+        margin-right: 0.35em;
+        padding-left: 0.35rem;
+        padding-right: 0.35rem;
+    }
+}
+
+.poster-download-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 0.75rem;
+}
+
+.poster-download-links a {
+    white-space: nowrap;
+}
+
 .homepage-logo-container {
     display: inline-block;
     margin: 5rem auto;
 }
 
 .homepage-logo {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .homepage-pre-title {

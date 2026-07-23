@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Exoclimes VIII</title>
-        <!-- favicon: intentionally blank for Phase 1; add Exoclimes VIII favicon in Phase 2 -->
+        <link rel="icon" href="assets/web/web_icon.svg" type="image/svg+xml">
+        <link rel="icon" href="assets/web/web_icon.png" type="image/png">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Exoclimes VIII — 11th to 16th July 2027, Digital Hall, Institute of Science Tokyo, Tokyo, Japan. ExoSLAM Summer School 8th to 10th July 2027, Mishima Hall, Institute of Science Tokyo.">
@@ -10,6 +11,8 @@
         <meta property="og:title" content="Exoclimes VIII">
         <meta property="og:description" content="11th to 16th July 2027, Digital Hall, Institute of Science Tokyo, Tokyo, Japan.">
         <meta property="og:url" content="https://exoclimes.org/">
+        <meta property="og:image" content="https://exoclimes.org/assets/logos/ExoClimesVIII_logo.png">
+        <meta name="twitter:card" content="summary_large_image">
 
         <!-- Boostrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -18,15 +21,15 @@
         <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&family=Roboto:wght@100&display=swap'); </style>
         <style> @import url('https://fonts.cdnfonts.com/css/good-times-2'); </style>
 
-        <link href="../css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
     </head>
 
-    <body style="background-color: #e8edf3; min-height: 100%;">
+    <body class="exoclimes-viii-bg">
         <div class="vert-spacer">
             <div class="container-fluid">
                 <div class="pt-3"></div>
                 <div class="header-menu-container p-2">
-                    <nav class="navbar navbar-expand-lg">
+                    <nav class="navbar navbar-expand-xl">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -38,18 +41,27 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
-                                </li>                                
+                                </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="program.html">Program</a>
+                                    <a class="nav-link" href="exoclimes_viii.html">ExoClimes VIII</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="exoslam.html">ExoSLAM</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="exoconnect.html">ExoConnect</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="register.html">Registration</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="SOC.html">SOC</a>
+                                    <a class="nav-link" href="logistics_viii.html">Logistics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="LOC.html">LOC</a>
+                                    <a class="nav-link" href="committees.html">Committees</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="faq.html">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -58,9 +70,9 @@
             </div>
 
             <!-- PAGE CONTENT -->
-            <div class="container-fluid d-flex justify-content-center">
-                <div class="row g-3" style="margin-top: 30px;">
-                    <div class="blurred-background homepage-logo p-4 col-md-8 offset-md-2 col-12">
+            <div class="container-fluid">
+                <div class="row g-3 justify-content-center" style="margin-top: 30px;">
+                    <div class="blurred-background homepage-logo p-4 col-md-8 col-12">
                         <div class="text-center mb-5 mt-3">
                             <h1 style="
                                 font-family: 'Good Times', sans-serif;
@@ -71,7 +83,7 @@
                             ">
                                 SAVE THE DATE!
                             </h1>
-                        </div>                        
+                        </div>
                         <div class="homepage-exoslam-logo mt-5 pt-5">
                             ExoSLAM
                         </div>
@@ -85,15 +97,50 @@
                         <div class="homepage-exoclimes-title-date" style="font-family: 'Raleway', sans-serif">
                             <b>11th to 16th July, 2027</b><br />Digital Hall, Institute of Science Tokyo,<br />Tokyo, Japan
                         </div>
+
+                        <div class="important-info-box">
+                            <strong>Important Information</strong>
+                            <ul class="mb-0 mt-2">
+                                <li>Unlike previous ExoClimes meetings, accommodation is <strong>not included</strong> in the registration.</li>
+                                <li>Venue and recommended hotel locations are on the <a href="logistics_viii.html">Logistics</a> page — see the interactive map.</li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-5">
+                            <h2 style="font-family: 'Raleway', sans-serif; font-weight: 700; color: #031B48; font-size: 18pt;">Latest Announcements</h2>
+                            <ul class="announcements-list">
+                                <li>
+                                    <span class="announcement-date">July 2026</span> — Save the Date announced: ExoClimes VIII (11–16 July 2027, Digital Hall) and ExoSLAM Summer School (8–10 July 2027, Mishima Hall), Institute of Science Tokyo, Tokyo, Japan.
+                                </li>
+                            </ul>
+                        </div>
+
                         <!-- Email -->
                         <div class="homepage-email-box d-flex align-items-center justify-content-center mt-5">
                             <img src="img/email.png" alt="Email" style="width: 24px; height: 24px; margin-right: 8px;">
                             <a href="mailto:exoclimesviii.tokyo@gmail.com">exoclimesviii.tokyo@gmail.com</a>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Email now lives inside the main panel above. Social links & Code of Conduct removed in Phase 1; restore/add in Phase 2. -->
-
+                <div class="row g-3 justify-content-center mt-3 mb-5">
+                    <div class="blurred-background p-4 col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-12 text-center mb-3" style="font-family: Raleway, sans-serif; font-weight: 600;">Download Posters</div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <a href="assets/posters/ExoClimesVIII_poster.png" class="homepage-poster-link" download>
+                                    <img src="assets/posters/ExoClimesVIII_poster.png" class="homepage-poster" alt="ExoClimes VIII Poster"/>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <a href="assets/posters/ExoSLAM2027_poster.png" class="homepage-poster-link" download>
+                                    <img src="assets/posters/ExoSLAM2027_poster.png" class="homepage-poster" alt="ExoSLAM 2027 Poster"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END PAGE CONTENT -->
@@ -102,7 +149,23 @@
 
         <!-- FOOTER -->
         <footer class="footer-container container-fluid">
-            <!-- Host-org logos (IREx / Université de Montréal) removed in Phase 1; add Institute of Science Tokyo branding in Phase 2 -->
+            <div class="row g-3 mb-3 align-items-center justify-content-center">
+                <div class="col-12 col-md-4 text-center">
+                    <a href="https://elsi.jp/en/">
+                        <img src="assets/sponsor/ELSI_logo.png" class="footer-logo" alt="ELSI"/>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="https://www.nins.jp/en/research/abc.html">
+                        <img src="assets/sponsor/ABC_logo.png" class="footer-logo" alt="Astrobiology Center"/>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="https://www.isct.ac.jp/en">
+                        <img src="assets/sponsor/ScienceTokyo_logo.png" class="footer-logo" alt="Institute of Science Tokyo"/>
+                    </a>
+                </div>
+            </div>
         </footer>
         <!-- END FOOTER -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
